@@ -1,0 +1,5 @@
+(defun count_ (l)
+  (cond ((eq l nil) 0)
+        (t (+ 1 (count_ (cdr l))))
+        )
+)
